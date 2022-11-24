@@ -48,9 +48,10 @@ export default {
     [
       '@storyblok/nuxt-auth',
       {
-        id: process.env.CONFIDENTIAL_CLIENT_ID,
-        secret: process.env.CONFIDENTIAL_CLIENT_SECRET,
-        redirect_uri: process.env.CONFIDENTIAL_CLIENT_REDIRECT_URI
+
+        id: 'BFj6DAtLo4DYZ7TY6JymiA==',
+        secret: 'Ume+pFvf+Hd/ISlGAUqW79aTHvwDYqVVEVQMdWOmIhyauEqXqX+5a29DX2QXm9OqSq7+rm8fFkRQD4FlS7oBLg==',
+        redirect_uri: 'https://ae12-45-112-31-103.in.ngrok.io/auth/callback'
       }
     ]
   ],
